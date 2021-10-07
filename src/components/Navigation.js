@@ -18,12 +18,18 @@ function Navigation(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">About Me</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="https://radams017.github.io/react-portfolio/#">
+              About Me
+            </Nav.Link>
+            <Nav.Link href="https://radams017.github.io/react-portfolio/#/projects">
+              Projects
+            </Nav.Link>
             <Nav.Link href="Ryan_Adams_Resume_v6.pdf" download>
               Resume
             </Nav.Link>
-            <Nav.Link href="/contact">Contact Me</Nav.Link>
+            <Nav.Link href="https://radams017.github.io/react-portfolio/#/contact">
+              Contact Me
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
