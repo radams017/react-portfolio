@@ -9,7 +9,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand>
           <img
-            src="/namelogo.png"
+            src="./namelogo.png"
             height="50"
             width="50"
             className="d-inline-block align-top"
