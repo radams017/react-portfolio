@@ -6,9 +6,19 @@
 .header-text {
   border: 1px;
   border-style: solid;
-  border-color: #fdfdfe;
+  border-color: ghostwhite;
+  background-color: ghostwhite;
   display: inline-block;
   padding: 1em;
   border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.about-me {
+  border: 1px;
+  border-style: solid;
+  display: inline-block;
+  background-color: ghostwhite;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }

@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
+import Project from "./components/Project";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,9 +14,8 @@ function App() {
       <Header />
       <BrowserRouter>
         <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/" component={Home} exact />
+          <Route path="/projects" component={Project} />
         </Switch>
       </BrowserRouter>
       <Footer />

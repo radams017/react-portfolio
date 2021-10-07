@@ -2,10 +2,7 @@
 
 * {
   font-family: "Lato", sans-serif;
-}
-
-.bg-global {
-  background-color: #fdfdfe;
+  background-size: 100%;
 }
 
 .App {
