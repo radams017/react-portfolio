@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img
             src="/namelogo.png"
             height="50"
