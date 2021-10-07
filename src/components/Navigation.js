@@ -18,7 +18,7 @@ function Navigation(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="https://radams017.github.io/react-portfolio/#">
+            <Nav.Link href="https://radams017.github.io/react-portfolio#/">
               About Me
             </Nav.Link>
             <Nav.Link href="https://radams017.github.io/react-portfolio/#/projects">
