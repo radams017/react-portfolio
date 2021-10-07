@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { render } from "@testing-library/react";
 
 function Navigation(props) {
   return (
@@ -20,8 +21,10 @@ function Navigation(props) {
           <Nav className="me-auto">
             <Nav.Link href="/">About Me</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="#contact">Contact Me</Nav.Link>
+            <Nav.Link href="Ryan_Adams_Resume_v6.pdf" download>
+              Resume
+            </Nav.Link>
+            <Nav.Link href="/contact">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
